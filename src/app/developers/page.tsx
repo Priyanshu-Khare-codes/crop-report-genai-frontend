@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const developers = [
@@ -55,7 +56,7 @@ const Developers = () => {
             className="bg-white text-green-700 rounded-xl shadow-xl overflow-hidden transform transition-transform hover:scale-105 hover:shadow-2xl hover:border-2 hover:border-green-400 animate-fadeIn"
           >
             <div className="relative">
-              <img
+              <Image
                 src={dev.image}
                 alt={dev.name}
                 className="w-full h-64 object-cover object-center"

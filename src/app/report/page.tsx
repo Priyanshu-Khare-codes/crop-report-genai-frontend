@@ -6,10 +6,19 @@ import ImageForm from "@/components/ImageForm";
 
 const loadingSteps = ["Processing Image", "Analyzing Image", "Generating Report"];
 
+interface CropDiseaseReport {
+  crop_name: string;
+  crop_disease: string;
+  crop_disease_symptoms: string[];
+  crop_disease_cause: string[];
+  crop_disease_management: string[];
+  crop_disease_prevention: string[];
+}
+
 export default function ReportPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [loadingIndex, setLoadingIndex] = useState(0);
-  const [report, setReport] = useState<any>(null);
+  const [report, setReport] = useState<CropDiseaseReport | null>(null);
 
   const handleSubmitImage = async (image: File) => {
     setIsSubmitting(true);
