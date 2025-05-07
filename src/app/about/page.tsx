@@ -42,7 +42,7 @@ export default function About() {
             Users can simply upload an image of a diseased or defective crop, and our system provides a detailed report — fast, accurate, and farmer-friendly.
           </p>
           <p className="text-lg md:text-xl font-mono text-green-900">
-            We're bridging the gap between traditional farming and future technology. 🌾🤖
+            We&apos;re bridging the gap between traditional farming and future technology. 🌾🤖
           </p>
         </div>
 
