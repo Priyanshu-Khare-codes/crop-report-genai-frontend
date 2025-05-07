@@ -32,7 +32,7 @@ export default function ReportPage() {
     formData.append("image", image);
 
     try {
-      const res = await fetch("http://localhost:8000/report", {
+      const res = await fetch("https://crop-report-genai-backend.vercel.app/report", {
         method: "POST",
         body: formData,
       });
