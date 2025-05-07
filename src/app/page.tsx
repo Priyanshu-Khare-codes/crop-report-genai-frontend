@@ -17,7 +17,7 @@ export default function Home() {
       <div className="flex flex-col gap-6 text-center lg:text-left max-w-2xl animate-fadeInUp">
         
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-josefin font-extrabold text-green-700 leading-tight">
-          Agro To Vision
+          Agro2Pro
         </h1>
 
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-mono text-green-800">

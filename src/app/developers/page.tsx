@@ -36,7 +36,7 @@ const Developers = () => {
           Meet the Developers
         </h1>
         <h2 className="text-2xl md:text-3xl font-mono text-green-800 mt-2">
-          The team behind Agro To Vision, revolutionizing agriculture with AI.
+          The team behind Agro2Pro, revolutionizing agriculture with AI.
         </h2>
         <p className="text-lg md:text-xl text-gray-700 mt-4 font-mono">
           Our developers are experts in AI and agriculture, building the future of farming.

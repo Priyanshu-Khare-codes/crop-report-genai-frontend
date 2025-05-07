@@ -13,7 +13,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <Link href="/" className="text-4xl font-josefin font-extrabold text-white tracking-wide transition-transform hover:scale-105 hover:text-green-200">
-          Agro To Vision
+          Agro2Pro
         </Link>
 
         {/* Desktop Menu */}

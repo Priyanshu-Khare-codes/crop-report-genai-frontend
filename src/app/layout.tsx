@@ -19,7 +19,7 @@ const josefinSans = Josefin_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Agro To Vision",
+  title: "Agro2Pro",
   description: "AI powered solution for farmers",
 };
 
